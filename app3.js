@@ -3,8 +3,8 @@ let valores= [];
 function aula3(){
     let valor = document.getElementById("txtvalor").value;
     let resultado = document.getElementById("resultado");
-    let limpar = document.getElementById('txtvalor').value = 0;
-    
+    let limpar = document.getElementById('txtvalor').value = null;
+
     valores.push(valor)
     
     resultado.innerHTML = valores;
@@ -15,7 +15,7 @@ function aula3(){
 function maior(){
     let valor = document.getElementById("txtvalor").value;
     let resultadom = document.getElementById("resultadom");
-    let limpar = document.getElementById('txtvalor').value = 0;
+    let limpar = document.getElementById('txtvalor').value = null;
 
     let contador = 0;
     let qtde = valores.length;
@@ -38,7 +38,7 @@ function maior(){
 function menor(){
     let valor = document.getElementById("txtvalor").value;
     let resultadomenor = document.getElementById("resultadomenor");
-    let limpar = document.getElementById('txtvalor').value = 0;
+    let limpar = document.getElementById('txtvalor').value = null;
 
     let contador = 0;
     let qtde = valores.length;
